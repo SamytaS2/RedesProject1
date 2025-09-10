@@ -19,6 +19,5 @@ public class UdpClientUnity : MonoBehaviour {
         receiveThread = new Thread(ReceiveData);
         receiveThread.Start();
         Debug.Log("Servidor iniciado na porta 5000");
-
-        }
+    }
 }
